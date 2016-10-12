@@ -157,7 +157,7 @@ var Form = function (_Component) {
   return Form;
 }(_react.Component);
 
-CustomForm.propTypes = {
+Form.propTypes = {
   children: _react2.default.PropTypes.array.isRequired,
   submitHandler: _react2.default.PropTypes.func
 };
