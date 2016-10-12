@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-class CustomForm extends Component {
+class Form extends Component {
   constructor(props) {
     super(props);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -113,4 +113,4 @@ CustomForm.propTypes = {
   children: React.PropTypes.array.isRequired,
   submitHandler: React.PropTypes.func
 };
-export default CustomForm;
+export default Form;

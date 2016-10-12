@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
-class CustomForm extends Component {
+class DivHello extends Component {
  
   render() {
     return (
       <div>
-        form2
+        Hello!
       </div>
     );
   }
 }
 
-export default CustomForm;
+export default DivHello;

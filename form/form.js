@@ -20,13 +20,13 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var CustomForm = function (_Component) {
-  _inherits(CustomForm, _Component);
+var Form = function (_Component) {
+  _inherits(Form, _Component);
 
-  function CustomForm(props) {
-    _classCallCheck(this, CustomForm);
+  function Form(props) {
+    _classCallCheck(this, Form);
 
-    var _this = _possibleConstructorReturn(this, (CustomForm.__proto__ || Object.getPrototypeOf(CustomForm)).call(this, props));
+    var _this = _possibleConstructorReturn(this, (Form.__proto__ || Object.getPrototypeOf(Form)).call(this, props));
 
     _this.handleSubmit = _this.handleSubmit.bind(_this);
     _this.handleChange = _this.handleChange.bind(_this);
@@ -36,7 +36,7 @@ var CustomForm = function (_Component) {
     return _this;
   }
 
-  _createClass(CustomForm, [{
+  _createClass(Form, [{
     key: 'componentWillMount',
     value: function componentWillMount() {
       this.state = {};
@@ -154,11 +154,11 @@ var CustomForm = function (_Component) {
     }
   }]);
 
-  return CustomForm;
+  return Form;
 }(_react.Component);
 
 CustomForm.propTypes = {
   children: _react2.default.PropTypes.array.isRequired,
   submitHandler: _react2.default.PropTypes.func
 };
-exports.default = CustomForm;
+exports.default = Form;

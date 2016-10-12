@@ -18,27 +18,27 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var CustomForm = function (_Component) {
-  _inherits(CustomForm, _Component);
+var DivHello = function (_Component) {
+  _inherits(DivHello, _Component);
 
-  function CustomForm() {
-    _classCallCheck(this, CustomForm);
+  function DivHello() {
+    _classCallCheck(this, DivHello);
 
-    return _possibleConstructorReturn(this, (CustomForm.__proto__ || Object.getPrototypeOf(CustomForm)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (DivHello.__proto__ || Object.getPrototypeOf(DivHello)).apply(this, arguments));
   }
 
-  _createClass(CustomForm, [{
+  _createClass(DivHello, [{
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
         'div',
         null,
-        'form2'
+        'Hello!'
       );
     }
   }]);
 
-  return CustomForm;
+  return DivHello;
 }(_react.Component);
 
-exports.default = CustomForm;
+exports.default = DivHello;
