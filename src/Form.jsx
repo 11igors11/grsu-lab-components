@@ -102,8 +102,6 @@ class Form extends Component {
       <div>
         <form onSubmit={this.handleSubmit} onChange={this.handleChange} onReset={this.handleReset}>
           {this.props.children}
-          <input type="reset" value="Reset state" />
-          <input type="submit" value="Submit" />
         </form>
       </div>
     );
