@@ -1,6 +1,5 @@
 'use strict';
 
 module.exports = {
-	Form: require('./Form/Form.js').default,
-	DivHello: require('./DivHello/DivHello.js').default
+	Form: require('./lib/Form.js').default
 }
