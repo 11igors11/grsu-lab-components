@@ -47,6 +47,7 @@ class Form extends Component {
         }
         break;
       case 'text':
+      case 'password':
         if (element.defaultValue) {
           this.setState({[name]: element.defaultValue});
         } else {
@@ -72,6 +73,7 @@ class Form extends Component {
         break;
       case 'textarea':
       case 'text':
+      case 'password':
       case 'select-one':
       case 'radio':
         this.setState({[name]: element.value});
