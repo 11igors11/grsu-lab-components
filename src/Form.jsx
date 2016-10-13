@@ -109,8 +109,4 @@ class Form extends Component {
     );
   }
 }
-Form.propTypes = {
-  children: React.PropTypes.array.isRequired,
-  submitHandler: React.PropTypes.func
-};
 export default Form;
